@@ -27,3 +27,7 @@ Bu işlem sonucunda "936.dmp" isminde bir dosya elde edeceğiz. Bundan sonra yap
 Dosyayı gimp ile açıp yükseklik, genişlik ve göreli konum (offset) değerleri ile oynadığımızda aşağıdaki gibi bir flag ile karşılaşıyoruz.
 
 <img src="/Mobil/Mobil400/Resimler/mspaint.png"/>
+
+
+NOT: İsterseniz örnek olması açısından aşağıdaki yazıyı da inceleyebilirsiniz.
+ - https://w00tsec.blogspot.com.tr/2015/02/extracting-raw-pictures-from-memory.html
