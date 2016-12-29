@@ -8,7 +8,7 @@ APK dosyasını indirip telefona kurduysanız aşağıdaki gibi bir ekran ile ka
 
 Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız, büyük ihtimal hiçbir veri görmeyeceksiniz. 
 
-Bu nedenle burda kullanabilecceğiniz iki method önerrebilirim.
+Ben size burda kullanabilecceğiniz iki method önerebilirim. Ancak ben ikincisini kullandım.
 
 İlki bazı moduller kullanarak SSLPinning yapmaktır. Bu işlem için de Xposed Freamwork içerisinde bulabileceğiniz SSLUnpinning modülüdür. Bunun için Xposed Freamwork kurmanız gerekiyor.
 
