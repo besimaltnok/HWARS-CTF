@@ -23,6 +23,9 @@ Görüldüğü üzere bir parola gerekmektedir. Bu parolayı elde etmek için a�
  
  <img src="/Mobil/Mobil400/Resimler/brute.png"/>
  
+  - Çalıştırılacak komut:
+   - rarcrack 1d350a83d153f8b3ac43effc10b3713e9bd4758a --threads 12 --type 7z
+ 
  Bu işlem sonunda yolo diye bir parola bulunacak ve aşağıdaki komutla dosyayı açacağız.
  
  * Komut: 7za 1d350a83d153f8b3ac43effc10b3713e9bd4758a.7z -pyolo
