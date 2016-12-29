@@ -29,11 +29,11 @@ Bu işlem sonunda aşağıdaki içeriğe sahip bir klasör elde etmeniz gerekece
 
 <img src="/Mobil/Mobil400/Resimler/apk.png"/>
 
-İnceleme sonucunda güvenli bir iletişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bunun için de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
+İnceleme sonucunda güvenli bir iletişim kullanmak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bunun için de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
 
 <img src="/Mobil/Mobil400/Resimler/sertifikaresmi.png" height=150/>
 
-Şimdi bu bilgiyi elde ettikten sonra yapmamaız gereken şey onların kullandıkları formatta burp aracına ait sertikayı üretmek ve aynı isimde oluşturulan bu sertifikayı orjinali ile değiştirerek apk dosyasını tekrar derlemek. Bunun için ilk olarak Firefox tarayaıcımıza import ettiğimiz sertifika dosyamızı aynı isimde çıkarıyoruz. 
+Şimdi bu bilgiyi elde ettikten sonra yapmamız gereken şey onların kullandıkları formatta burp aracına ait sertikayı üretmek ve aynı isimde oluşturulan bu sertifikayı orjinali ile değiştirerek apk dosyasını tekrar derlemek. Bunun için ilk olarak Firefox tarayıcımıza import ettiğimiz sertifika dosyamızı aynı isimde çıkarıyoruz. 
 
 Bu işlem için aşağıdaki yol izlenebilir :
 
