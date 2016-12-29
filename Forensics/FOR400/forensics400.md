@@ -1,6 +1,6 @@
 ### Hacking Wars CTF - Forensics - Memo
 
-Bu soruda da elimizde bir tane dosya vardı. Her zman soruların isimlerinin bir ipucu olduğunu biliyorum :) Bu nedenle sorunun aslında bir Memory Dump olduğunu tahmin etmek zor olmadı.
+Bu soruda da elimizde bir tane dosya vardı. Her zaman soruların isimlerinin bir ipucu olduğunu biliyorum :) Bu nedenle sorunun aslında bir Memory Dump olduğunu tahmin etmek zor olmadı.
 
 Bu dump üzerinde analiz yapabilmek için volatility yazılımı kullandım. Kali işletim sistemi içerisinde kurulu gelen bir araçtır. Siz isterseniz farklı sistemlere de kurabilirsiniz.
 
