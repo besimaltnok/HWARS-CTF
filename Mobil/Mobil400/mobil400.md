@@ -6,7 +6,7 @@ APK dosyasını indirip telefona kurduysanız aşağıdaki gibi bir ekran ile ka
 
 <img src="/Mobil/Mobil400/Resimler/ilkkurulum.png" width="350" height="300"/>
 
-Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız. Büyük ihtimal hiçbir veri görmeyeceksiniz. SSLPinning için gerekli bir araç kullansanız dahi yaptığınız işlem başarısız olacaktır. Bunun nedeni kullanılacak sertifikanın tanımlanmış olma olasılığıdır.
+Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız, büyük ihtimal hiçbir veri görmeyeceksiniz. SSLPinning için gerekli bir araç kullansanız dahi yaptığınız işlem başarısız olacaktır. Bunun nedeni kullanılacak sertifikanın tanımlanmış olma olasılığıdır.
 
 Bu nedenle APK dosyasını decompile edip incelemek istedim. Bunun için aşağıdaki komutu kullandım.
 
@@ -16,11 +16,13 @@ Bu işlem sonunda aşağıdaki içeriğe sahip bir klasör elde etmeniz gerekece
 
 <img src="/Mobil/Mobil400/Resimler/apk.png"/>
 
-İnceleme sonucunda güvenli bir ieltişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bununiçin de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
+İnceleme sonucunda güvenli bir ieltişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bunun için de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
 
 <img src="/Mobil/Mobil400/Resimler/sertifikaresmi.png" height=150/>
 
-Şimdi bu bilgiyi elde ettikten sonra yapmamaız gereken şey onların kullandıkları formatta burp aracona ait sertikayı üretmek ve aynı isimde oluşturulan bu sertifikayı orjinali ile değiştirerek apk dosyasını tekrar derlemek. Bunun için ilk olarak Firefox tarayaıcımıza import ettiğimiz sertifika dosyamızı aynı isimde çıkarıyoruz.
+Şimdi bu bilgiyi elde ettikten sonra yapmamaız gereken şey onların kullandıkları formatta burp aracına ait sertikayı üretmek ve aynı isimde oluşturulan bu sertifikayı orjinali ile değiştirerek apk dosyasını tekrar derlemek. Bunun için ilk olarak Firefox tarayaıcımıza import ettiğimiz sertifika dosyamızı aynı isimde çıkarıyoruz. 
+
+Bu işlem için aşağıdaki yol izlenebilir :
 
 *  Tercihler - Gelişmiş - Sertifikalar - Sertitikaları göster
 
@@ -41,4 +43,8 @@ Bu işlemden sonra dosyayı cihazınıza yükleyin ve cihazın proxy ayarların�
 Proxy ayarları için aşağıdaki adımları takip edebilirsiniz.
 
 <img src="/Mobil/Mobil400/Resimler/proxyayari.png" width="350" height="200"/>
+
+Eğer tüm işlemleri sorunsuz yerine getirdiyseniz : Yolladığınız isteğe dönen cevapta flag için gerekli bilginin geldiğin göreceksinizdir.
+
+<img src="/Mobil/Mobil400/Resimler/flag.jpg" width="400" height="300"/>
 
