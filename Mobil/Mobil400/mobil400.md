@@ -4,9 +4,9 @@ Bu yazıda sizlere Hacking Wars CTF inde yer alan mobile 400 MSN sorusunun çöz
 
 APK dosyasını indirip telefona kurduysanız aşağıdaki gibi bir ekran ile karşılaşmışsınızdır.
 
---Resim eklenecek
+<img src="/Mobil/Mobil400/Resimler/ilkkurulum.png" width="350" height="300"/>
 
-Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız. Büyük ihtimal hiçbir veri görmeyeceksiniz. SSLPinning için gerekli bir araç kullansanız dahi yaptığınız işlem başarısız olacaktır.
+Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız. Büyük ihtimal hiçbir veri görmeyeceksiniz. SSLPinning için gerekli bir araç kullansanız dahi yaptığınız işlem başarısız olacaktır. Bunun nedeni kullanılacak sertifikanın tanımlanmış olma olasılığıdır.
 
 Bu nedenle APK dosyasını decompile edip incelemek istedim. Bunun için aşağıdaki komutu kullandım.
 
@@ -14,19 +14,11 @@ Bu nedenle APK dosyasını decompile edip incelemek istedim. Bunun için aşağ�
 
 Bu işlem sonunda aşağıdaki içeriğe sahip bir klasör elde etmeniz gerekecektir.
 
---Resim eklenecek
+<img src="/Mobil/Mobil400/Resimler/apk.png"/>
 
-Kodları incelemek için bir editör kullanabilirsiniz. Benim tercihim sublime oldu.
+İnceleme sonucunda güvenli bir ieltişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bununiçin de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
 
---Resim eklenecek-sublime
-
-İnceleme sonucunda güvenli bir ieltişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.
-
---Resim eklenecek
-
-Bunu görmenizin diğer bir yoluda direk assest klasörü altına bakmanızdır. Çünkü sertifikalar genelde burada saklanmaktadır.
-
---Resim eklenecek
+<img src="/Mobil/Mobil400/Resimler/sertifikaresmi.png" height=150/>
 
 Şimdi bu bilgiyi elde ettikten sonra yapmamaız gereken şey onların kullandıkları formatta burp aracona ait sertikayı üretmek ve aynı isimde oluşturulan bu sertifikayı orjinali ile değiştirerek apk dosyasını tekrar derlemek. Bunun için ilk olarak Firefox tarayaıcımıza import ettiğimiz sertifika dosyamızı aynı isimde çıkarıyoruz.
 
@@ -34,7 +26,7 @@ Bunu görmenizin diğer bir yoluda direk assest klasörü altına bakmanızdır.
 
 Burdan gerekli sertitika export edilir. (X.509(PEM))
 
---Resim eklenecek
+<img src="/Mobil/Mobil400/Resimler/burpsertitikası.png" width="350" height="200"/>
 
 Elde edilen sertitika assest kalsöründeki sertifika ile değiştirilir ve APK dosyası tekrar derlenir.
 
@@ -48,5 +40,5 @@ Bu işlemden sonra dosyayı cihazınıza yükleyin ve cihazın proxy ayarların�
 
 Proxy ayarları için aşağıdaki adımları takip edebilirsiniz.
 
--Resimler eklenecek
+<img src="/Mobil/Mobil400/Resimler/proxyayari.png" width="350" height="200"/>
 
