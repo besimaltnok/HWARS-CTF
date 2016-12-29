@@ -1,6 +1,6 @@
 ### Hacking Wars CTF - Mobile300 - OTP
 
-Bu soruda da Meryem AKDOĞAN isimli takım arkadaşımın emeği büyüktür. O olmasaydı bu soru gitmiş olabilirdi :)
+Bu soruda da takım arkadaşım Meryem AKDOĞAN'ın emeği büyüktür. O olmasaydı bu soru gitmiş olabilirdi :)
 
 Bu soruda uygulamanın ilk olarak istenilen android versiyonunda çalıştırılması gerekiyordu. Uygulamanın Manifest dosyasında da bunu görebilirdiniz.
 Bu nedenle soruda bir versiyon bağımlılığı vardı v eherkeste soru doğru adımlar ile çözülse de farklı sonuçlar ortaya çıkarıyordu.
