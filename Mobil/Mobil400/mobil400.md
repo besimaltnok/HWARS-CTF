@@ -10,7 +10,9 @@ Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıy
 
 Ben size burda kullanabilecceğiniz iki method önerebilirim. Ancak ben ikincisini kullandım.
 
-İlki bazı moduller kullanarak SSLUnPinning yapmaktır. Bu işlem için de Xposed Freamwork içerisinde bulabileceğiniz SSLUnpinning modülüdür. Bunun için Xposed Freamwork kurmanız gerekiyor.
+İlki bazı moduller kullanarak SSLUnPinning yapmaktır. Bu işlem için de Xposed Freamwork içerisinde bulabileceğiniz SSLUnpinning modülünü kullanabilirsiniz. 
+
+Xposed Freamwork kurulumu ve modüller hakkında bilgiler:
 
  * Xposed Freamwork için gerekli apk dosyası ve modülleri hakkında bilgiye aşağıdaki adreslerden erişebilirsiniz:
   - http://repo.xposed.info/module/de.robv.android.xposed.installer
