@@ -39,7 +39,7 @@ Bu işlem için aşağıdaki yol izlenebilir :
 
 *  Tercihler - Gelişmiş - Sertifikalar - Sertitikaları göster
 
-Burdan gerekli sertitika export edilir. (X.509(PEM))
+Burdan gerekli sertifika export edilir. (X.509(PEM))
 
 <img src="/Mobil/Mobil400/Resimler/burpsertitikası.png" width="350" height="200"/>
 
