@@ -39,7 +39,7 @@ Görüldüğü üzere bir parola gerekmektedir. Bu parolayı elde etmek için a�
    
  Sorunun da başlığından yola çıkarak bu değerleri https://hashkiller.co.uk sitesinde SHA1 decrypt kısmına atıyoruz.
  
- Sonuç: 
+ Sonuç:
  
  <img src="/Mobil/Mobil400/Resimler/sha1.png"/>
  
