@@ -19,12 +19,18 @@ Bu işlemden sonra elde edilen dosya jd-gui ile açılır. Ama ondan önce jd-gu
 
 * Komut : java --jar jd-gui.jar
 
--- Resim eklenecek
+<img src="/Mobil/Mobil400/Resimler/kod.png"/>
 
 Bu işlemden sonra Display.class incelendiğinde, aşadıdaki giib bir string görüceksiniz. Aslında çok karmaşaya girmeden bunu alıp decode ettiğinizde bir resim url adresi ile karşılaşacaksınız.
 
--- Resim eklenecek
+<img src="/Mobil/Mobil400/Resimler/base64decode.png" width="350" height="350" />
 
 Bu resim  Pablo Neruda'ya ait ve bunu pablo.neruda şeklinde yazdığınızda sonuca ulaşmış olacaktınız.
 
--- Resim eklenecek
+
+<img src="/Mobil/Mobil400/Resimler/resim.png" width="350" height="300" />
+
+FLAG : 
+
+<img src="/Mobil/Mobil400/Resimler/flag2.png" width="350" height="300" />
+
