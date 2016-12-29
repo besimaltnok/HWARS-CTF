@@ -37,13 +37,13 @@ Bu işlem sonunda aşağıdaki içeriğe sahip bir klasör elde etmeniz gerekece
 
 Bu işlem için aşağıdaki yol izlenebilir :
 
-*  Tercihler - Gelişmiş - Sertifikalar - Sertitikaları göster
+*  Tercihler - Gelişmiş - Sertifikalar - Sertifikaları göster
 
 Burdan gerekli sertifika export edilir. (X.509(PEM))
 
 <img src="/Mobil/Mobil400/Resimler/burpsertitikası.png" width="350" height="200"/>
 
-Elde edilen sertitika assest kalsöründeki sertifika ile değiştirilir ve APK dosyası tekrar derlenir.
+Elde edilen sertifika assest kalsöründeki sertifika ile değiştirilir ve APK dosyası tekrar derlenir.
 
 * Komut : apktool b msn -o hacking.apk
 
