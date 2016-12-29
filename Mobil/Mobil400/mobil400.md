@@ -6,7 +6,20 @@ APK dosyasını indirip telefona kurduysanız aşağıdaki gibi bir ekran ile ka
 
 <img src="/Mobil/Mobil400/Resimler/ilkkurulum.png" width="350" height="300"/>
 
-Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız, büyük ihtimal hiçbir veri görmeyeceksiniz. SSLPinning için gerekli bir araç kullansanız dahi yaptığınız işlem başarısız olacaktır. Bunun nedeni kullanılacak sertifikanın tanımlanmış olma olasılığıdır.
+Buraya ilgili verileri yazıp bir proxy aracılığı ile dinlemeye çalıştıysanız, büyük ihtimal hiçbir veri görmeyeceksiniz. 
+
+Bu nedenle burda kullanabilecceğiniz iki method önerrebilirim.
+
+İlki bazı moduller kullanarak SSLPinning yapmaktır. Bu işlem için de Xposed Freamwork içerisinde bulabileceğiniz SSLUnpinning modülüdür. Bunun için Xposed Freamwork kurmanız gerekiyor.
+
+ * Xposed Freamwork için gerekli apk dosyası ve modülleri hakkında bilgiye aşağıdaki adreslerden erişebilirsiniz:
+  - http://repo.xposed.info/module/de.robv.android.xposed.installer
+  - http://www.meryemakdoğan.com/xposed-ve-modulleri/
+  
+<img src="/Mobil/Mobil400/Resimler/ssl.png"/>
+
+
+Diğer bir yöntemde bu işlemi manuel yöntemler ile yapmaktır.Bu işlem için amacımız kendi sertifikamızı apk dosyasına yerleştirmektir.
 
 Bu nedenle APK dosyasını decompile edip incelemek istedim. Bunun için aşağıdaki komutu kullandım.
 
