@@ -29,7 +29,7 @@ Bu işlem sonunda aşağıdaki içeriğe sahip bir klasör elde etmeniz gerekece
 
 <img src="/Mobil/Mobil400/Resimler/apk.png"/>
 
-İnceleme sonucunda güvenli bir ieltişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bunun için de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
+İnceleme sonucunda güvenli bir iletişim kullanamak amacı ile kendi sertifikalarını kullandıklarını görebilirsniz.Bunun için de assest klasörü altına bakmanız gerekecektir. Çünkü sertifikalar genelde burada saklanmaktadır.
 
 <img src="/Mobil/Mobil400/Resimler/sertifikaresmi.png" height=150/>
 
